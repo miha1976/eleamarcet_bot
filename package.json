@@ -1,0 +1,7 @@
+{
+  "name": "elea-start-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": { "start": "node src/app.js" },
+  "dependencies": { "telegraf": "^4.16.3", "express": "^4.19.2" }
+}
