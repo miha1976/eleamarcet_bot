@@ -2,6 +2,18 @@
   "name": "elea-start-bot",
   "version": "1.0.0",
   "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "telegraf": "^4.16.3"
+  }
+}{
+  "name": "elea-start-bot",
+  "version": "1.0.0",
+  "type": "module",
   "scripts": { "start": "node app.js" },
   "dependencies": { "express": "^4.19.2" }
 }
